@@ -30,6 +30,8 @@ app.use( express.static( publicPath ) );
 
 //mis rutas
 app.use('/api/login', require('./routes/auth'));
+app.use('/api/user', require('./routes/user'));
+app.use('/api/messages', require('./routes/messages'));
 
 
 
